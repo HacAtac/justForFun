@@ -24,13 +24,23 @@
 }
 
 .navbar ul li a:hover {
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.1
-  );
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center logo image and text */
+}
+
+.logo-image {
+  max-width: 300px; /* Adjust the size of your logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.logo-text {
+  margin-top: 0.5rem; /* Space between logo image and text */
 }
 
 @media screen and (max-width: 768px) {
@@ -50,7 +60,6 @@ html {
   margin: auto;
   padding: 0 50px;
 }
-
 
 .navbar ul {
   list-style-type: none;
