@@ -9,7 +9,6 @@
   border-radius: 10px; /* Rounded corners */
 }
 
-/* Adjust the navbar container */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -17,7 +16,6 @@
   padding: 1rem; /* Reduced padding */
 }
 
-/* Update the link styles for a better visual hierarchy */
 .navbar ul li a {
   font-weight: bold;
   font-size: 1.1rem;
@@ -25,25 +23,19 @@
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-/* Add transition for the background color change on hover */
 .navbar ul li a:hover {
   background-color: rgba(
     255,
     255,
     255,
     0.1
-  ); /* Soft white background on hover */
-  border-radius: 5px; /* Rounded corners for the background */
+  );
+  border-radius: 5px;
 }
-
-/* Other styles remain unchanged */
 
 @media screen and (max-width: 768px) {
-  /* Add any responsive adjustments here */
 }
 
-/* -------------------------- */
-/* Base styles */
 body,
 html {
   margin: 0;
@@ -53,14 +45,12 @@ html {
   color: white;
 }
 
-/* Utility classes */
 .container {
   max-width: 1200px;
   margin: auto;
   padding: 0 50px;
 }
 
-/* Header */
 
 .navbar ul {
   list-style-type: none;
@@ -83,7 +73,6 @@ html {
   color: #fff;
 }
 
-/* Hero Section */
 .hero {
   background: url("https://source.unsplash.com/random/1920x1080?warcraft")
     no-repeat center center/cover;

@@ -1,6 +1,4 @@
-// Assuming newsData is already loaded via a <script> tag in your HTML before index.js
-// The newsData variable should be available globally
-
+// The newsData variable should be available globally since it is loaded before index.js
 // Function to create and append news cards
 function createNewsCards(newsItems) {
   const newsGrid = document.querySelector(".news-grid");
